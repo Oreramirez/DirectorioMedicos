@@ -12,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -21,6 +22,7 @@ import com.example.edyjr.medicosapp.Actividades.AddEditMedicoActivity;
 import com.example.edyjr.medicosapp.Actividades.MainActivity;
 import com.example.edyjr.medicosapp.Datos.Medicos;
 import com.example.edyjr.medicosapp.Datos.MedicosDbHelper;
+import com.example.edyjr.medicosapp.Pacientes.GestionarPacientes;
 import com.example.edyjr.medicosapp.R;
 
 public class MedicoDetailFragment extends Fragment {
@@ -63,6 +65,17 @@ public class MedicoDetailFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View root = inflater.inflate(R.layout.fragment_medico_detail, container, false);
+        //Gestionar Pacientes
+        Button btnopen = (Button) root.findViewById(R.id.btnAgregar);
+        btnopen.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent in = new Intent(getActivity(), GestionarPacientes.class);
+                in.putExtra("some", mMedicoId);
+                startActivity(in);
+            }
+        });
+
         //actividad
         mCollapsingView = (CollapsingToolbarLayout)getActivity().findViewById(R.id.toolbar_layout);
         mAvatar = (ImageView)getActivity().findViewById(R.id.iv_avatar);
