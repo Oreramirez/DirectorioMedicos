@@ -15,9 +15,9 @@
         android:layout_marginTop="180dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Name" />
 
     <EditText
         android:id="@+id/Txt_Codigo"
@@ -43,12 +43,14 @@
 
     <Button
         android:id="@+id/button7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="156dp"
+        android:layout_width="215dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="84dp"
         android:layout_marginTop="44dp"
+        android:background="@color/colorPrimary"
         android:onClick="Registrar"
         android:text="Registrar"
+        android:textColor="@color/colorAccent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Txt_peso" />
 

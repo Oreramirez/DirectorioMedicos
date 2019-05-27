@@ -13,8 +13,10 @@
         android:layout_height="57dp"
         android:layout_marginStart="92dp"
         android:layout_marginTop="36dp"
+        android:background="@color/colorPrimary"
         android:onClick="Aclistar"
         android:text="Listar Paciente"
+        android:textColor="@color/colorAccent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button5" />
 
@@ -25,8 +27,10 @@
         android:layout_marginStart="88dp"
         android:layout_marginTop="60dp"
 
+        android:background="@color/colorPrimary"
         android:onClick="AcAgregar"
         android:text="Agregar Paciente"
+        android:textColor="@color/colorAccent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -36,8 +40,10 @@
         android:layout_height="54dp"
         android:layout_marginStart="88dp"
         android:layout_marginTop="28dp"
+        android:background="@color/colorPrimary"
         android:onClick="Aceliminar"
         android:text="Eliminar Paciente"
+        android:textColor="@color/colorAccent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2" />
 
@@ -47,8 +53,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="88dp"
         android:layout_marginTop="40dp"
+        android:background="@color/colorPrimary"
         android:onClick="AcBuscar"
         android:text="Buscar Paciente"
+        android:textColor="@color/colorAccent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3" />
 
@@ -58,8 +66,10 @@
         android:layout_height="54dp"
         android:layout_marginStart="92dp"
         android:layout_marginTop="44dp"
+        android:background="@color/colorPrimary"
         android:onClick="AcMod"
         android:text="Modificar Paciente"
+        android:textColor="@color/colorAccent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button4" />
 

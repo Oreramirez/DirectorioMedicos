@@ -9,6 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Pacientes.ModificarPaciente"></activity>
+        <activity android:name=".Pacientes.EliminarPaciente" />
+        <activity android:name=".Pacientes.BuscarPaciente" />
+        <activity android:name=".Pacientes.ListarPaciente" />
+        <activity android:name=".Pacientes.AgregarPaciente" />
+        <activity android:name=".Pacientes.GestionarPacientes" />
         <activity
             android:name=".Actividades.MainActivity"
             android:label="@string/app_name"
