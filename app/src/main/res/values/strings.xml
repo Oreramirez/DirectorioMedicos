@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MedicosApp</string>
+    <string name="action_settings">Configuracion</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="field_error">Error</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_medico_detail">Detalle</string>
+    <string name="title_activity_add_edit_medico">AddEditMedicoActivity</string>
+    <string name="large_text"></string>
+</resources>
