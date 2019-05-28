@@ -9,68 +9,115 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="182dp"
+        android:layout_width="74dp"
         android:layout_height="57dp"
         android:layout_marginStart="92dp"
         android:layout_marginTop="36dp"
-        android:background="@color/colorPrimary"
+        android:background="@drawable/ic_check"
         android:onClick="Aclistar"
-        android:text="Listar Paciente"
         android:textColor="@color/colorAccent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button5" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="182dp"
+        android:layout_width="75dp"
         android:layout_height="60dp"
         android:layout_marginStart="88dp"
         android:layout_marginTop="60dp"
 
-        android:background="@color/colorPrimary"
+        android:background="@drawable/ic_account_plus"
         android:onClick="AcAgregar"
-        android:text="Agregar Paciente"
         android:textColor="@color/colorAccent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="181dp"
+        android:layout_width="75dp"
         android:layout_height="54dp"
         android:layout_marginStart="88dp"
         android:layout_marginTop="28dp"
-        android:background="@color/colorPrimary"
+        android:background="@android:drawable/ic_menu_delete"
         android:onClick="Aceliminar"
-        android:text="Eliminar Paciente"
         android:textColor="@color/colorAccent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="186dp"
+        android:layout_width="75dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="88dp"
         android:layout_marginTop="40dp"
-        android:background="@color/colorPrimary"
+        android:background="@android:drawable/ic_menu_search"
         android:onClick="AcBuscar"
-        android:text="Buscar Paciente"
         android:textColor="@color/colorAccent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3" />
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="180dp"
+        android:layout_width="70dp"
         android:layout_height="54dp"
         android:layout_marginStart="92dp"
         android:layout_marginTop="44dp"
-        android:background="@color/colorPrimary"
+        android:background="@android:drawable/ic_menu_edit"
         android:onClick="AcMod"
-        android:text="Modificar Paciente"
         android:textColor="@color/colorAccent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="76dp"
+        android:text="Agregar Paciente"
+        app:layout_constraintStart_toEndOf="@+id/button2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="72dp"
+        android:text="Eliminar Paciente"
+        app:layout_constraintStart_toEndOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="76dp"
+        android:text="Buscar Paciente"
+        app:layout_constraintStart_toEndOf="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:text="Modificar Paciente"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button5"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:layout_constraintVertical_bias="0.179" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="60dp"
+        android:text="Listar Paciente"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
 </android.support.constraint.ConstraintLayout>

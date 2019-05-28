@@ -60,7 +60,7 @@
         android:layout_height="67dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:text="Ingrese Codigo de Paciente a Buscar:"
+        android:text="Ingrese Codigo de Paciente:"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
